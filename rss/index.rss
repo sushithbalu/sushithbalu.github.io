@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 29 Sep 2016 11:04:46 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>Making a blog on GitHub pages using ghost-blog Post sammarises: Steps for installation, Issues faced while installing ghost in ubuntu, DISQUS, Custom Domain</description><link>http://127.0.0.1:2368/github-blog-using-ghost/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><category>articles</category><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:00 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" medium="image"/><content:encoded>&lt;img src="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" alt="GitHub Pages  Blog using Ghost"&gt;&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 29 Sep 2016 11:52:48 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>Making a blog on GitHub pages using ghost-blog Post sammarises: Steps for installation, Issues faced while installing ghost in ubuntu, DISQUS, Custom Domain</description><link>http://127.0.0.1:2368/github-blog-using-ghost/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><category>articles</category><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:00 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" medium="image"/><content:encoded>&lt;img src="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" alt="GitHub Pages  Blog using Ghost"&gt;&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
 
 &lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
 
@@ -62,39 +62,7 @@ Now, deploy all your changes to github pages by,&lt;/p&gt;
 &lt;h6 id="addingcustomdomainname"&gt;Adding custom domain name&lt;/h6&gt;
 
 &lt;p&gt;You can add costom domain name (for eg:  instead of &lt;mark&gt;sushithbalu.github.io&lt;/mark&gt; i have changed to &lt;mark&gt;blog.sushith.net&lt;/mark&gt;) for your website. If you already have own domain name, it can directly added to &lt;strong&gt;CNAME&lt;/strong&gt; file inside static folder. &lt;br&gt;
-If you don't have a domain name, hundreds of website are out there for buying it. I bought my domain name from &lt;a href="http://bigrock.in"&gt;http://bigrock.in&lt;/a&gt;. &lt;/p&gt;</content:encoded></item><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in&lt;/p&gt;</description><link>http://127.0.0.1:2368/course-review-the-hardware-software-interface/</link><guid isPermaLink="false">19b3e8c6-6143-4bfb-b478-379cdcdde7e7</guid><dc:creator>sushith</dc:creator><pubDate>Sun, 25 Sep 2016 12:32:10 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" medium="image"/><content:encoded>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
-
-&lt;img src="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" alt="Course Review: The Hardware/Software Interface"&gt;&lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in computer programming, this class helps to ascertain more about effective programming, debugging, and elements that influence programming performance. Like all other Coursera Courses, this one also holds in a syllabus, video lectures, programming assignments, some homework questions and so on.&lt;/p&gt;
-
-&lt;p&gt;The first section of video lectures starts with a nice introduction about the instructors and university of Washington, then a brief overview about the course. In that respect there are some small  technical issues with the lectures, even though, as it is their first course in coursera, I have to suppose that they had performed a fantastic task to provide the material in a well coordinated way. They formed an entire course lectures into eleven topic sections.&lt;/p&gt;
-
-&lt;p&gt;Sections:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Memory &amp;amp; data&lt;/li&gt;
-&lt;li&gt;Integers &amp;amp; float&lt;/li&gt;
-&lt;li&gt;Machine code &amp;amp; C&lt;/li&gt;
-&lt;li&gt;x86 assembly&lt;/li&gt;
-&lt;li&gt;Procedure &amp;amp; stack&lt;/li&gt;
-&lt;li&gt;Arrays &amp;amp; structs&lt;/li&gt;
-&lt;li&gt;Memory &amp;amp; caches&lt;/li&gt;
-&lt;li&gt;Processes&lt;/li&gt;
-&lt;li&gt;Virtual memory&lt;/li&gt;
-&lt;li&gt;Memory allocation&lt;/li&gt;
-&lt;li&gt;Java vs. C&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;One of the main highlights of this course is that they provided a Virtual Machine with preloaded 64bit fedora OS for doing programming assignments. But my machine (Lenovo G450 laptop) didn’t support VM, so I did programming assignments in my 64bit Ubuntu OS itself.&lt;/p&gt;
-
-&lt;p&gt;In add-on to these lectures I used to read the reference book Computer Systems: A Programmer’s PerspecLve, 2nd Editon. This book also afforded me the necessary knowledge for Doing programming assignments.&lt;/p&gt;
-
-&lt;p&gt;I believe the most significant part of the course are programming assignments. There were 6 programming assignments (lab0 to lab5) and executing each of them were very exciting. The first assignment, “lab0” aims to earn more experience with c programming, including topics such as arrays, stack allocation, stack allocation, function calls, and memory safety. Second assignment “lab1” is all about tricky bit operations and pointer manipulation and arithmetic, however, solving each of the questions were just fun.&lt;/p&gt;
-
-&lt;p&gt;“lab2” required students to “defuse” the code “bomb”, this assignment actually helps to get familiar with assembly code, and tools like gdb (GNU debugger), objdumb and strings. The primary usage of GNU debugger comes in “lab3” and this assignment helps students to build up a detailed understanding of the calling stack organization on an x86-64 processor, here gdb and other system tools are used to inspect programs during runtime in order to solve the buffer overflow attacks in the given code. Nevertheless, “lab4” discussed cache geometry, but this one was rather hard for me, even though I figured out the answer after a few days of hard work. The final assignment “lab5” is about writing a dynamic storage allocator, that is implementing own version of malloc () and free ().&lt;/p&gt;
-
-&lt;p&gt;The Hardware/Software Is my first coursera online course and I personally very much enjoyed it. The actual benefit of these kind of online courses is learners can access training materials anywhere any time, so for those who love learning, I strongly recommend to participate in these kind of MOOC’s.&lt;/p&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://127.0.0.1:2368/welcome-to-ghost/</link><guid isPermaLink="false">485a9dd5-cbf8-4003-9e98-499ae67a0657</guid><category>Getting Started</category><dc:creator>sushith</dc:creator><pubDate>Mon, 27 Jun 2016 14:51:45 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+If you don't have a domain name, hundreds of website are out there for buying it. I bought my domain name from &lt;a href="http://bigrock.in"&gt;http://bigrock.in&lt;/a&gt;. &lt;/p&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://127.0.0.1:2368/welcome-to-ghost/</link><guid isPermaLink="false">485a9dd5-cbf8-4003-9e98-499ae67a0657</guid><category>Getting Started</category><dc:creator>sushith</dc:creator><pubDate>Mon, 27 Jun 2016 14:51:45 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
 
 &lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
 
@@ -159,4 +127,36 @@ If you don't have a domain name, hundreds of website are out there for buying it
 
 &lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
 
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in&lt;/p&gt;</description><link>http://127.0.0.1:2368/course-review-the-hardware-software-interface/</link><guid isPermaLink="false">19b3e8c6-6143-4bfb-b478-379cdcdde7e7</guid><dc:creator>sushith</dc:creator><pubDate>Fri, 25 Sep 2015 12:32:00 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" medium="image"/><content:encoded>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
+
+&lt;img src="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" alt="Course Review: The Hardware/Software Interface"&gt;&lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in computer programming, this class helps to ascertain more about effective programming, debugging, and elements that influence programming performance. Like all other Coursera Courses, this one also holds in a syllabus, video lectures, programming assignments, some homework questions and so on.&lt;/p&gt;
+
+&lt;p&gt;The first section of video lectures starts with a nice introduction about the instructors and university of Washington, then a brief overview about the course. In that respect there are some small  technical issues with the lectures, even though, as it is their first course in coursera, I have to suppose that they had performed a fantastic task to provide the material in a well coordinated way. They formed an entire course lectures into eleven topic sections.&lt;/p&gt;
+
+&lt;p&gt;Sections:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Memory &amp;amp; data&lt;/li&gt;
+&lt;li&gt;Integers &amp;amp; float&lt;/li&gt;
+&lt;li&gt;Machine code &amp;amp; C&lt;/li&gt;
+&lt;li&gt;x86 assembly&lt;/li&gt;
+&lt;li&gt;Procedure &amp;amp; stack&lt;/li&gt;
+&lt;li&gt;Arrays &amp;amp; structs&lt;/li&gt;
+&lt;li&gt;Memory &amp;amp; caches&lt;/li&gt;
+&lt;li&gt;Processes&lt;/li&gt;
+&lt;li&gt;Virtual memory&lt;/li&gt;
+&lt;li&gt;Memory allocation&lt;/li&gt;
+&lt;li&gt;Java vs. C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the main highlights of this course is that they provided a Virtual Machine with preloaded 64bit fedora OS for doing programming assignments. But my machine (Lenovo G450 laptop) didn’t support VM, so I did programming assignments in my 64bit Ubuntu OS itself.&lt;/p&gt;
+
+&lt;p&gt;In add-on to these lectures I used to read the reference book Computer Systems: A Programmer’s PerspecLve, 2nd Editon. This book also afforded me the necessary knowledge for Doing programming assignments.&lt;/p&gt;
+
+&lt;p&gt;I believe the most significant part of the course are programming assignments. There were 6 programming assignments (lab0 to lab5) and executing each of them were very exciting. The first assignment, “lab0” aims to earn more experience with c programming, including topics such as arrays, stack allocation, stack allocation, function calls, and memory safety. Second assignment “lab1” is all about tricky bit operations and pointer manipulation and arithmetic, however, solving each of the questions were just fun.&lt;/p&gt;
+
+&lt;p&gt;“lab2” required students to “defuse” the code “bomb”, this assignment actually helps to get familiar with assembly code, and tools like gdb (GNU debugger), objdumb and strings. The primary usage of GNU debugger comes in “lab3” and this assignment helps students to build up a detailed understanding of the calling stack organization on an x86-64 processor, here gdb and other system tools are used to inspect programs during runtime in order to solve the buffer overflow attacks in the given code. Nevertheless, “lab4” discussed cache geometry, but this one was rather hard for me, even though I figured out the answer after a few days of hard work. The final assignment “lab5” is about writing a dynamic storage allocator, that is implementing own version of malloc () and free ().&lt;/p&gt;
+
+&lt;p&gt;The Hardware/Software Is my first coursera online course and I personally very much enjoyed it. The actual benefit of these kind of online courses is learners can access training materials anywhere any time, so for those who love learning, I strongly recommend to participate in these kind of MOOC’s.&lt;/p&gt;</content:encoded></item></channel></rss>
