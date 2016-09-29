@@ -1,22 +1,14 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 29 Sep 2016 05:33:37 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Generate appropriate directories, HTML pages and links for the blog using &lt;strong&gt;buster&lt;/strong&gt; tool.&lt;/li&gt;
-&lt;/ul&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 29 Sep 2016 09:21:19 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
 
 &lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
 
-&lt;p&gt;&lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; is an open source blog&lt;/p&gt;</description><link>http://127.0.0.1:2368/github-blog-using-ghost-2/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:01 GMT</pubDate><content:encoded>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Generate appropriate directories, HTML pages and links for the blog using &lt;strong&gt;buster&lt;/strong&gt; tool.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; is an open source blog  publishing platform with lot of awesome features and themes. It is very easy&lt;/p&gt;</description><link>http://127.0.0.1:2368/github-blog-using-ghost-2/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:01 GMT</pubDate><content:encoded>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
 
 &lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
 
 &lt;p&gt;&lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; is an open source blog  publishing platform with lot of awesome features and themes. It is very easy to write and publish content on it. &lt;/p&gt;
 
-&lt;p&gt;You can be downloaded and extracted ghost using following commands in a Linux machine.&lt;/p&gt;
+&lt;p&gt;You can download and extract ghost using following commands in a Linux machine.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;wget https://ghost.org/zip/ghost-0.11.0.zip
 unzip ghost-0.11.0.zip -d ghost
@@ -42,9 +34,26 @@ npm start
 
 &lt;p&gt;GitHub pages free platform which helps to build websites or blogs for your projects. However you can create only one website per GitHub account. &lt;/p&gt;
 
-&lt;p&gt;First, head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub. The first part of repository should match with your user name. Otherwise, it won't work.&lt;/p&gt;
+&lt;p&gt;First, head over to GitHub and create a new repository named &lt;mark&gt;username.github.io&lt;/mark&gt;, where username is your User Name (or Organization Name) on GitHub. &lt;br&gt;
+Note: The first part of repository should match with the user name. Otherwise, it won't work.&lt;/p&gt;
 
-&lt;p&gt;For adding blog to GitHub pages, Clone the repository that you have created to your local machine. Using buster generate static folder, deploy this inside the repository, commit and push changes to GitHub. Done!. After some time you will be able to launch your website at &lt;a href="http://username.github.io"&gt;http://username.github.io&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;There is an open source tool called &lt;strong&gt;Buster&lt;/strong&gt; to generate static files and HTML pages from local site. Follow &lt;a href="https://github.com/axitkhurana/buster/blob/master/README.rst"&gt;this&lt;/a&gt; link for more details about buster and its Installation. After successful installation, use following command to make &lt;mark&gt;static/&lt;/mark&gt; directory and initializes a Git repository inside it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;buster setup [--gh-repo=&amp;lt;your-repository-url&amp;gt;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;commands below will help you to generate static files and deploy changes to GitHub repository.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;buster generate [--domain=&amp;lt;local-address&amp;gt;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;default local address will be : local-address=127.0.0.1/ &lt;br&gt;
+Now, deploy all your changes to github pages by,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;buster deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Done!. After some time you will be able to launch your site at &lt;a href="http://username.github.io"&gt;http://username.github.io&lt;/a&gt;. &lt;/p&gt;
 
 &lt;h6 id="disqusacommentsplugin"&gt;DISQUS: a comments plugin&lt;/h6&gt;
 
@@ -54,9 +63,10 @@ npm start
 
 &lt;p&gt;Now, locate the file &lt;mark&gt;post.hbs&lt;/mark&gt; inside theme directory in locally downloaded Ghost folder. (Path will be like &lt;mark&gt;/content/themes/[theme_name]/post.hbs&lt;/mark&gt;) and paste the code snippet under &lt;mark&gt;{{/post}}&lt;/mark&gt; and &lt;mark&gt;&amp;lt; /article&gt;&lt;/mark&gt;. Start the local site, generate static pages using buster and commit the code to GitHub Pages. That's it!, Now you will be able to see comment box under your blog posts.&lt;/p&gt;
 
-&lt;h6 id="buyadomainname"&gt;Buy a domain name&lt;/h6&gt;
+&lt;h6 id="addingcustomdomainname"&gt;Adding custom domain name&lt;/h6&gt;
 
-&lt;p&gt;Hundreds of website are out there for buying domain name. I bought my domain name from &lt;a href="http://bigrock.in"&gt;http://bigrock.in&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;You can add costom domain name (for eg:  instead of &lt;mark&gt;sushithbalu.github.io&lt;/mark&gt; i have changed to &lt;mark&gt;blog.sushith.net&lt;/mark&gt;) for your website. If you already have own domain name, it can directly added to &lt;strong&gt;CNAME&lt;/strong&gt; file inside static folder. &lt;br&gt;
+If you don't have a domain name, hundreds of website are out there for buying it. I bought my domain name from &lt;a href="http://bigrock.in"&gt;http://bigrock.in&lt;/a&gt;. &lt;/p&gt;</content:encoded></item><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in&lt;/p&gt;</description><link>http://127.0.0.1:2368/course-review-the-hardware-software-interface/</link><guid isPermaLink="false">19b3e8c6-6143-4bfb-b478-379cdcdde7e7</guid><dc:creator>sushith</dc:creator><pubDate>Sun, 25 Sep 2016 12:32:10 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" medium="image"/><content:encoded>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
 
