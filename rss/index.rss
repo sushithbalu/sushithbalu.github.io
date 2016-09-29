@@ -1,4 +1,62 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Sun, 25 Sep 2016 13:09:19 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 29 Sep 2016 05:33:37 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate appropriate directories, HTML pages and links for the blog using &lt;strong&gt;buster&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; is an open source blog&lt;/p&gt;</description><link>http://127.0.0.1:2368/github-blog-using-ghost-2/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:01 GMT</pubDate><content:encoded>&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate appropriate directories, HTML pages and links for the blog using &lt;strong&gt;buster&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; is an open source blog  publishing platform with lot of awesome features and themes. It is very easy to write and publish content on it. &lt;/p&gt;
+
+&lt;p&gt;You can be downloaded and extracted ghost using following commands in a Linux machine.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://ghost.org/zip/ghost-0.11.0.zip
+unzip ghost-0.11.0.zip -d ghost
+cd ghost
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or you can download a development copy of   ghost from &lt;a href="https://ghost.org/zip/ghost-0.11.0.zip"&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;. Now, save and unzip the file to a safe location. &lt;br&gt;
+ Follow these links to install &lt;a href="https://nodejs.org/en/download/package-manager/"&gt;Node.js&lt;/a&gt; and &lt;a href="http://blog.npmjs.org/post/85484771375/how-to-install-npm"&gt;npm&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Ghost is written in javascript language. So we need &lt;strong&gt;Node.js&lt;/strong&gt; and &lt;strong&gt;npm&lt;/strong&gt; to install and run Ghost. Node.js is the runtime environment for javascript components and npm is the package manager which is used to install, publish and manage Node.js packages.&lt;/p&gt;
+
+&lt;p&gt;If you are using windows or mac npm can be installed directly using &lt;a href="https://nodejs.org/en/download/"&gt;pre-built npm installers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, you can install and start ghost in local machine using following commands. Default ULR for Launching local site from browser will be &lt;a href="http://localhost:2368"&gt;http://localhost:2368&lt;/a&gt;. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install --production
+npm start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, Set-up user Credentials, theme. You can writing posts using markdown editor. This editor is simple and lot of short cut keys are available.&lt;/p&gt;
+
+&lt;h6 id="githubpages"&gt;GitHub Pages&lt;/h6&gt;
+
+&lt;p&gt;GitHub pages free platform which helps to build websites or blogs for your projects. However you can create only one website per GitHub account. &lt;/p&gt;
+
+&lt;p&gt;First, head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub. The first part of repository should match with your user name. Otherwise, it won't work.&lt;/p&gt;
+
+&lt;p&gt;For adding blog to GitHub pages, Clone the repository that you have created to your local machine. Using buster generate static folder, deploy this inside the repository, commit and push changes to GitHub. Done!. After some time you will be able to launch your website at &lt;a href="http://username.github.io"&gt;http://username.github.io&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h6 id="disqusacommentsplugin"&gt;DISQUS: a comments plugin&lt;/h6&gt;
+
+&lt;p&gt;We cannot directly add comment box in GitHub Pages blog or website. Because, these are static pages. However we can use third party service like DISQUS to do it.&lt;/p&gt;
+
+&lt;p&gt;To add this plugin you need to register with DISCUS fisrt. Once you registered successfully, they will provide a code snippet to insert in your blog. This DISQUS &lt;a href="https://help.disqus.com/customer/portal/articles/1454924-ghost-installation-instructions"&gt;help page&lt;/a&gt; will help you to do that.&lt;/p&gt;
+
+&lt;p&gt;Now, locate the file &lt;mark&gt;post.hbs&lt;/mark&gt; inside theme directory in locally downloaded Ghost folder. (Path will be like &lt;mark&gt;/content/themes/[theme_name]/post.hbs&lt;/mark&gt;) and paste the code snippet under &lt;mark&gt;{{/post}}&lt;/mark&gt; and &lt;mark&gt;&amp;lt; /article&gt;&lt;/mark&gt;. Start the local site, generate static pages using buster and commit the code to GitHub Pages. That's it!, Now you will be able to see comment box under your blog posts.&lt;/p&gt;
+
+&lt;h6 id="buyadomainname"&gt;Buy a domain name&lt;/h6&gt;
+
+&lt;p&gt;Hundreds of website are out there for buying domain name. I bought my domain name from &lt;a href="http://bigrock.in"&gt;http://bigrock.in&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title>Course Review: The Hardware/Software Interface</title><description>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;The hardware/software interface is an Online offered through university of Washington and taught by Instructors Gaetano Borriello and Luis Ceze. An amazing course discusses key computational abstraction levels happening in between computer hardware and software. For beginners in&lt;/p&gt;</description><link>http://127.0.0.1:2368/course-review-the-hardware-software-interface/</link><guid isPermaLink="false">19b3e8c6-6143-4bfb-b478-379cdcdde7e7</guid><dc:creator>sushith</dc:creator><pubDate>Sun, 25 Sep 2016 12:32:10 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/cpu-424812_1280.jpg" medium="image"/><content:encoded>&lt;h4 id="myexperiencewithcourseraonlinecoursehttpsclasscourseraorghwswinterface002"&gt;My experience with coursera online course: &lt;a href="https://class.coursera.org/hwswinterface-002"&gt;https://class.coursera.org/hwswinterface-002&lt;/a&gt;&lt;/h4&gt;
 
