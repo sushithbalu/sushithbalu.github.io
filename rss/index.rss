@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Fri, 30 Sep 2016 16:38:24 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>Making a blog on GitHub pages using ghost-blog Post sammarises: Steps for installation, Issues faced while installing ghost in ubuntu, DISQUS, Custom Domain</description><link>http://127.0.0.1:2368/github-blog-using-ghost/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><category>articles</category><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:00 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" medium="image"/><content:encoded>&lt;img src="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" alt="GitHub Pages  Blog using Ghost"&gt;&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sushith</title><description>Thoughts, stories and ideas.</description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Fri, 30 Sep 2016 18:09:12 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>GitHub Pages  Blog using Ghost</title><description>Making a blog on GitHub pages using ghost-blog Post sammarises: Steps for installation, Issues faced while installing ghost in ubuntu, DISQUS, Custom Domain</description><link>http://127.0.0.1:2368/github-blog-using-ghost/</link><guid isPermaLink="false">3fdfc464-1d09-4402-a79c-52a3bf9380e1</guid><category>articles</category><dc:creator>sushith</dc:creator><pubDate>Wed, 28 Sep 2016 14:45:00 GMT</pubDate><media:content url="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" medium="image"/><content:encoded>&lt;img src="http://127.0.0.1:2368/content/images/2016/09/blog-image-jpg.svg" alt="GitHub Pages  Blog using Ghost"&gt;&lt;p&gt;There are plenty of ways to make blogs or websites. But, building a blog on GitHub pages using ghost blogging platform is the most elegant approach to do it.&lt;/p&gt;
 
 &lt;h6 id="theghost"&gt;The 'Ghost'&lt;/h6&gt;
 
@@ -11,20 +11,21 @@ unzip ghost-0.11.0.zip -d ghost
 cd ghost
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Or you can download a development copy of   ghost from &lt;a href="https://ghost.org/zip/ghost-0.11.0.zip"&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;. Now, save and unzip the file to a safe location. &lt;br&gt;
- Follow these links to install &lt;a href="https://nodejs.org/en/download/package-manager/"&gt;Node.js&lt;/a&gt; and &lt;a href="http://blog.npmjs.org/post/85484771375/how-to-install-npm"&gt;npm&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Or you can download a development copy of   ghost from &lt;a href="https://ghost.org/zip/ghost-0.11.0.zip"&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;. Now, save and unzip the file to a safe location. &lt;/p&gt;
 
-&lt;p&gt;Ghost is written in javascript language. So we need &lt;strong&gt;Node.js&lt;/strong&gt; and &lt;strong&gt;npm&lt;/strong&gt; to install and run Ghost. Node.js is the runtime environment for javascript components and npm is the package manager which is used to install, publish and manage Node.js packages.&lt;/p&gt;
+&lt;p&gt;Ghost is written in javascript language. So we need &lt;strong&gt;Node.js&lt;/strong&gt; and &lt;strong&gt;npm&lt;/strong&gt; to install and run Ghost. Node.js is the runtime environment for javascript components and npm is the package manager which is used to install, publish and manage Node.js packages. Follow these links to install &lt;a href="https://nodejs.org/en/download/package-manager/"&gt;Node.js&lt;/a&gt; and &lt;a href="http://blog.npmjs.org/post/85484771375/how-to-install-npm"&gt;npm&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you are using windows or mac npm can be installed directly using &lt;a href="https://nodejs.org/en/download/"&gt;pre-built npm installers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you are using windows or mac, npm can be installed directly using &lt;a href="https://nodejs.org/en/download/"&gt;pre-built npm installers&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now, you can install and start ghost in local machine using following commands. Default ULR for Launching local site from browser will be &lt;a href="http://localhost:2368"&gt;http://localhost:2368&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Now, you can install and start ghost in local machine using following commands. &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;npm install --production
 npm start
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Then, Set-up user Credentials, theme. You can writing posts using markdown editor. This editor is simple and lot of short cut keys are available.&lt;/p&gt;
+&lt;p&gt;Default ULR for Launching local site from browser will be &lt;a href="http://localhost:2368"&gt;http://localhost:2368&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Ghost admin console can be accessed from a browser using URL &lt;a href="http://localhost:2368/ghost"&gt;http://localhost:2368/ghost&lt;/a&gt;. Now you can add title, description, edit settings and choose theme. If you are ready add some contents, click on &lt;mark&gt;New Post&lt;/mark&gt; and write using markdown editor. This editor is simple and lot of short cut keys are available.&lt;/p&gt;
 
 &lt;h6 id="githubpages"&gt;GitHub Pages&lt;/h6&gt;
 
